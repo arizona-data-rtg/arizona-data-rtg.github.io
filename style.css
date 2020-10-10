@@ -1,0 +1,196 @@
+/* -*-mode:c-*- */
+
+a:link {color:#001199}      /* unvisited link */
+a:visited {color:#8800AA}  /* visited link */
+//a:hover {color:#FF00FF}  /* mouse over link */
+//a:active {color:#0000FF}  /* selected link */
+
+body {
+  background:white;
+  color: #202020;
+  line-height: 1.35em;
+  background: white;
+  // background: gray;
+  //text-align:left;
+}
+
+h1 {
+  /*border-bottom: 3pt solid maroon;*/
+  border-left: 0pt;
+  border-right: 0pt;
+  border-top: 3pt solid maroon;
+
+  margin-bottom: 0.2em;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0.5em;
+
+  padding-top: 0.25em;
+  padding-bottom: 0em;
+
+  font-size: 150%;
+  color: #202020;
+}
+
+h2 {
+  text-align: left;
+  font-size: 131%;
+  color: #202020;
+}
+
+h3 {
+  text-align: left;
+  font-size: 114%;
+  color: #202020;
+}
+
+// iframe {
+//   width: 90rem;
+//   height: 60rem;
+// }
+
+div.sep {
+  height: 0.5em;
+}
+
+div.bigsep {
+  height: 1em;
+}
+
+div.sect {
+  border-bottom: 0pt;
+  border-left: 0pt;
+  border-right: 0pt;
+  border-top: 1px solid gray;
+
+  margin-bottom: 1.5em;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 1.5em;
+
+  padding: 0em;
+}
+
+address {
+  border-left: 0pt;
+  border-right: 0pt;
+  border-top: 3pt solid maroon;
+
+  margin-bottom: 2em;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 2em;
+
+  padding-top: 0.3em;
+
+  font-size: 75%;
+  font-style: normal;
+  color: #333333;
+}
+
+small {
+  font-size: 30%;
+  font-style: normal;
+ color: #333333;
+}
+
+strong {
+  font-weight: 900;
+}
+
+b {
+  font-weight: 900;
+}
+
+div.main {
+  background: white;
+  //border-top: 3pt solid maroon;
+  // border-left: 1em;
+  // border-right: 1em;
+  // border-bottom: 1em;
+  border: 12pt solid white;
+  /* padding: 18pt;*/
+ // width: 60em;
+  width: 60em;
+  //margin-top: 2em;
+  //margin-left: 1em;
+  margin: auto;
+  text-align: left;
+}
+
+div.main0 {
+  background: white;
+  //border-top: 3pt solid maroon;
+  // border-left: 1em;
+  // border-right: 1em;
+  // border-bottom: 1em;
+  border: 12pt solid white;
+  /* padding: 18pt;*/
+ // width: 60em;
+  width: 60em;
+  //margin-top: 2em;
+  //margin-left: 1em;
+  margin: auto;
+  text-align: left;
+}
+
+div.main1 {
+  background: white;
+  //border-top: 3pt solid maroon;
+  // border-left: 1em;
+  // border-right: 1em;
+  // border-bottom: 1em;
+  border: 12pt solid white;
+  /* padding: 18pt;*/
+ width: 42em;
+  //margin-top: 2em;
+  //margin-left: 1em;
+  margin: auto;
+  text-align: left;
+}
+
+// for modeling seminar: make it wider
+div.main90 {
+  background: white;
+  //border-top: 3pt solid maroon;
+  // border-left: 1em;
+  // border-right: 1em;
+  // border-bottom: 1em;
+  border: 12pt solid white;
+  /* padding: 18pt;*/
+ // width: 60em;
+  width: 90em;
+  //margin-top: 2em;
+  //margin-left: 1em;
+  margin: auto;
+  text-align: left;
+}
+
+div.menu {
+  /* background: #EEEEEE;*/
+  //border-top: 1pt solid maroon;
+  border-bottom: 3pt solid maroon;
+  margin-top: 0.2em;
+  margin-bottom: 1em;
+  font-size: 100%;
+  padding-top: 0em;
+  padding-bottom: 0.5em;
+}
+
+div.jref {
+  border-top: 1pt solid #DDEEFF;
+  border-left: 3pt solid #DDEEFF;
+  border-right: 3pt solid #DDEEFF;
+  border-bottom: 1pt solid #DDEEFF;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+  background: #DDEEFF;
+}
+
+span.alert {
+ color: red;
+}
+
+ul {
+  list-style-type: '- ';
+}
